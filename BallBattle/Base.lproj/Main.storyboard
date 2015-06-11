@@ -16,12 +16,16 @@
                                 <rect key="frame" x="-2" y="-6" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="Zin-cn-9rP">
-                                <rect key="frame" x="232" y="5" width="84" height="84"/>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="Zin-cn-9rP">
+                                <rect key="frame" x="234" y="5" width="84" height="84"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="1We-KK-xHr">
                                 <rect key="frame" x="0.0" y="5" width="84" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="CG1-S4-Q1L">
+                                <rect key="frame" x="0.0" y="426" width="84" height="84"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="start.png" id="s6a-fi-uLY">
@@ -96,10 +100,56 @@
                                 <rect key="frame" x="140" y="464" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="CG1-S4-Q1L">
-                                <rect key="frame" x="0.0" y="426" width="84" height="84"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dfw-pA-29V">
+                                <rect key="frame" x="21" y="97" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O3r-09-i5x">
+                                <rect key="frame" x="78" y="97" width="17" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DcC-Tv-4o3">
+                                <rect key="frame" x="227" y="94" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ml9-5k-Vdr">
+                                <rect key="frame" x="284" y="94" width="17" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Usa-TK-Y8m">
+                                <rect key="frame" x="16" y="397" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wy5-td-Bdc">
+                                <rect key="frame" x="78" y="397" width="17" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LTR-oG-LFp">
+                                <rect key="frame" x="63" y="328" width="190" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.93538544430000004" blue="0.15477852310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1034886782" green="0.25318023020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -108,15 +158,19 @@
                         <outlet property="connectButton" destination="kHi-No-BNq" id="Ypq-MU-r5i"/>
                         <outlet property="game_over" destination="EqT-Qw-vxL" id="HjI-f1-k9s"/>
                         <outlet property="gem" destination="MN7-TJ-lDs" id="bfD-Au-Qfu"/>
-                        <outlet property="goal" destination="1We-KK-xHr" id="MzL-zq-aGA"/>
+                        <outlet property="goal" destination="1We-KK-xHr" id="dyH-EG-VEY"/>
                         <outlet property="goal2" destination="CG1-S4-Q1L" id="J7R-pf-eO1"/>
                         <outlet property="goal3" destination="Zin-cn-9rP" id="U1Q-IW-SXr"/>
+                        <outlet property="judgeLabel" destination="LTR-oG-LFp" id="cFQ-JE-MKU"/>
                         <outlet property="pin1" destination="et9-oQ-lrU" id="Xsh-FG-okB"/>
                         <outlet property="pin2" destination="bUo-t3-q3m" id="Sny-cn-vez"/>
                         <outlet property="pin3" destination="JvO-RD-NkA" id="Q2R-Js-ITB"/>
                         <outlet property="pin4" destination="N8g-fZ-0ym" id="ttz-li-VYF"/>
                         <outlet property="pin5" destination="2MU-hl-Tf2" id="YXJ-Va-aCb"/>
                         <outlet property="pin6" destination="wVs-JI-c18" id="GF5-8K-lFv"/>
+                        <outlet property="score2Label" destination="Usa-TK-Y8m" id="0XE-gb-6sg"/>
+                        <outlet property="score3Label" destination="DcC-Tv-4o3" id="NN0-MN-bSy"/>
+                        <outlet property="score4Label" destination="Dfw-pA-29V" id="aAf-6q-tWC"/>
                         <outlet property="scoreLabel" destination="AmZ-Hb-BWL" id="Lw8-DM-kkD"/>
                         <outlet property="start" destination="s6a-fi-uLY" id="UHt-oH-gK0"/>
                         <outlet property="startButton" destination="MXg-gM-3Nz" id="9jq-4B-0IY"/>
