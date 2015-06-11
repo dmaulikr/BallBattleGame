@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="base.png" id="xAB-3j-T5A">
+                                <rect key="frame" x="-2" y="-6" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="Zin-cn-9rP">
+                                <rect key="frame" x="232" y="5" width="84" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="1We-KK-xHr">
+                                <rect key="frame" x="0.0" y="5" width="84" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="start.png" id="s6a-fi-uLY">
+                                <rect key="frame" x="220" y="426" width="84" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="et9-oQ-lrU">
+                                <rect key="frame" x="86" y="155" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="bUo-t3-q3m">
+                                <rect key="frame" x="81" y="301" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="JvO-RD-NkA">
+                                <rect key="frame" x="227" y="206" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AmZ-Hb-BWL">
+                                <rect key="frame" x="218" y="383" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0L8-RR-wra">
+                                <rect key="frame" x="272" y="383" width="27" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MXg-gM-3Nz">
+                                <rect key="frame" x="127" y="281" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="一人">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doStart:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TBK-95-Qkh"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="N8g-fZ-0ym">
+                                <rect key="frame" x="210" y="356" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="game_over.png" id="EqT-Qw-vxL">
+                                <rect key="frame" x="0.0" y="123" width="320" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="gem.png" id="MN7-TJ-lDs">
+                                <rect key="frame" x="235" y="441" width="54" height="54"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="wVs-JI-c18">
+                                <rect key="frame" x="151" y="70" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3u0-eE-my4">
+                                <rect key="frame" x="0.0" y="518" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="複数" id="kHi-No-BNq">
+                                        <connections>
+                                            <action selector="connectButonTouched:" destination="vXZ-lx-hvc" id="UNf-n7-wxX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pin.png" id="2MU-hl-Tf2">
+                                <rect key="frame" x="140" y="464" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="goal.png" id="CG1-S4-Q1L">
+                                <rect key="frame" x="0.0" y="426" width="84" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="base" destination="xAB-3j-T5A" id="qex-5k-WoB"/>
+                        <outlet property="connectButton" destination="kHi-No-BNq" id="Ypq-MU-r5i"/>
+                        <outlet property="game_over" destination="EqT-Qw-vxL" id="HjI-f1-k9s"/>
+                        <outlet property="gem" destination="MN7-TJ-lDs" id="bfD-Au-Qfu"/>
+                        <outlet property="goal" destination="1We-KK-xHr" id="MzL-zq-aGA"/>
+                        <outlet property="goal2" destination="CG1-S4-Q1L" id="J7R-pf-eO1"/>
+                        <outlet property="goal3" destination="Zin-cn-9rP" id="U1Q-IW-SXr"/>
+                        <outlet property="pin1" destination="et9-oQ-lrU" id="Xsh-FG-okB"/>
+                        <outlet property="pin2" destination="bUo-t3-q3m" id="Sny-cn-vez"/>
+                        <outlet property="pin3" destination="JvO-RD-NkA" id="Q2R-Js-ITB"/>
+                        <outlet property="pin4" destination="N8g-fZ-0ym" id="ttz-li-VYF"/>
+                        <outlet property="pin5" destination="2MU-hl-Tf2" id="YXJ-Va-aCb"/>
+                        <outlet property="pin6" destination="wVs-JI-c18" id="GF5-8K-lFv"/>
+                        <outlet property="scoreLabel" destination="AmZ-Hb-BWL" id="Lw8-DM-kkD"/>
+                        <outlet property="start" destination="s6a-fi-uLY" id="UHt-oH-gK0"/>
+                        <outlet property="startButton" destination="MXg-gM-3Nz" id="9jq-4B-0IY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="181" y="322"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="base.png" width="320" height="568"/>
+        <image name="game_over.png" width="320" height="150"/>
+        <image name="gem.png" width="54" height="54"/>
+        <image name="goal.png" width="84" height="84"/>
+        <image name="pin.png" width="19" height="19"/>
+        <image name="start.png" width="84" height="84"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

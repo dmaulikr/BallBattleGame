@@ -14,6 +14,20 @@
 		F00F49C71B286BA600AEFF7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00F49C61B286BA600AEFF7C /* Images.xcassets */; };
 		F00F49CA1B286BA600AEFF7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00F49C81B286BA600AEFF7C /* LaunchScreen.xib */; };
 		F00F49D61B286BA700AEFF7C /* BallBattleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F00F49D51B286BA700AEFF7C /* BallBattleTests.m */; };
+		F00F49E11B286C3500AEFF7C /* BGMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F00F49E01B286C3500AEFF7C /* BGMManager.m */; };
+		F00F49E31B286C6200AEFF7C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00F49E21B286C6200AEFF7C /* CoreMotion.framework */; };
+		F00F49ED1B286CDF00AEFF7C /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E41B286CDF00AEFF7C /* base.png */; };
+		F00F49EE1B286CDF00AEFF7C /* game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E51B286CDF00AEFF7C /* game_over.png */; };
+		F00F49EF1B286CDF00AEFF7C /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E61B286CDF00AEFF7C /* gem.png */; };
+		F00F49F01B286CDF00AEFF7C /* Gem2.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E71B286CDF00AEFF7C /* Gem2.png */; };
+		F00F49F11B286CDF00AEFF7C /* goal.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E81B286CDF00AEFF7C /* goal.png */; };
+		F00F49F21B286CDF00AEFF7C /* hit.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49E91B286CDF00AEFF7C /* hit.png */; };
+		F00F49F31B286CDF00AEFF7C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49EA1B286CDF00AEFF7C /* icon.png */; };
+		F00F49F41B286CDF00AEFF7C /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49EB1B286CDF00AEFF7C /* pin.png */; };
+		F00F49F51B286CDF00AEFF7C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F49EC1B286CDF00AEFF7C /* start.png */; };
+		F00F49F71B286D1300AEFF7C /* Skyward.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F00F49F61B286D1300AEFF7C /* Skyward.mp3 */; };
+		F00F49FA1B2875B500AEFF7C /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F00F49F91B2875B500AEFF7C /* ConnectionManager.m */; };
+		F00F49FC1B2875E200AEFF7C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00F49FB1B2875E200AEFF7C /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,22 @@
 		F00F49CF1B286BA700AEFF7C /* BallBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00F49D41B286BA700AEFF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F00F49D51B286BA700AEFF7C /* BallBattleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallBattleTests.m; sourceTree = "<group>"; };
+		F00F49DF1B286C3500AEFF7C /* BGMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMManager.h; sourceTree = "<group>"; };
+		F00F49E01B286C3500AEFF7C /* BGMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMManager.m; sourceTree = "<group>"; };
+		F00F49E21B286C6200AEFF7C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F00F49E41B286CDF00AEFF7C /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base.png; sourceTree = "<group>"; };
+		F00F49E51B286CDF00AEFF7C /* game_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_over.png; sourceTree = "<group>"; };
+		F00F49E61B286CDF00AEFF7C /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem.png; sourceTree = "<group>"; };
+		F00F49E71B286CDF00AEFF7C /* Gem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gem2.png; sourceTree = "<group>"; };
+		F00F49E81B286CDF00AEFF7C /* goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal.png; sourceTree = "<group>"; };
+		F00F49E91B286CDF00AEFF7C /* hit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hit.png; sourceTree = "<group>"; };
+		F00F49EA1B286CDF00AEFF7C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F00F49EB1B286CDF00AEFF7C /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		F00F49EC1B286CDF00AEFF7C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		F00F49F61B286D1300AEFF7C /* Skyward.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Skyward.mp3; sourceTree = "<group>"; };
+		F00F49F81B2875B500AEFF7C /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		F00F49F91B2875B500AEFF7C /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		F00F49FB1B2875E200AEFF7C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00F49FC1B2875E200AEFF7C /* GameKit.framework in Frameworks */,
+				F00F49E31B286C6200AEFF7C /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,8 @@
 		F00F49AD1B286BA600AEFF7C = {
 			isa = PBXGroup;
 			children = (
+				F00F49FB1B2875E200AEFF7C /* GameKit.framework */,
+				F00F49E21B286C6200AEFF7C /* CoreMotion.framework */,
 				F00F49B81B286BA600AEFF7C /* BallBattle */,
 				F00F49D21B286BA700AEFF7C /* BallBattleTests */,
 				F00F49B71B286BA600AEFF7C /* Products */,
@@ -81,10 +115,24 @@
 		F00F49B81B286BA600AEFF7C /* BallBattle */ = {
 			isa = PBXGroup;
 			children = (
+				F00F49F61B286D1300AEFF7C /* Skyward.mp3 */,
+				F00F49E41B286CDF00AEFF7C /* base.png */,
+				F00F49E51B286CDF00AEFF7C /* game_over.png */,
+				F00F49E61B286CDF00AEFF7C /* gem.png */,
+				F00F49E71B286CDF00AEFF7C /* Gem2.png */,
+				F00F49E81B286CDF00AEFF7C /* goal.png */,
+				F00F49E91B286CDF00AEFF7C /* hit.png */,
+				F00F49EA1B286CDF00AEFF7C /* icon.png */,
+				F00F49EB1B286CDF00AEFF7C /* pin.png */,
+				F00F49EC1B286CDF00AEFF7C /* start.png */,
 				F00F49BD1B286BA600AEFF7C /* AppDelegate.h */,
 				F00F49BE1B286BA600AEFF7C /* AppDelegate.m */,
 				F00F49C01B286BA600AEFF7C /* ViewController.h */,
 				F00F49C11B286BA600AEFF7C /* ViewController.m */,
+				F00F49F81B2875B500AEFF7C /* ConnectionManager.h */,
+				F00F49F91B2875B500AEFF7C /* ConnectionManager.m */,
+				F00F49DF1B286C3500AEFF7C /* BGMManager.h */,
+				F00F49E01B286C3500AEFF7C /* BGMManager.m */,
 				F00F49C31B286BA600AEFF7C /* Main.storyboard */,
 				F00F49C61B286BA600AEFF7C /* Images.xcassets */,
 				F00F49C81B286BA600AEFF7C /* LaunchScreen.xib */,
@@ -199,8 +247,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00F49F21B286CDF00AEFF7C /* hit.png in Resources */,
 				F00F49C51B286BA600AEFF7C /* Main.storyboard in Resources */,
 				F00F49CA1B286BA600AEFF7C /* LaunchScreen.xib in Resources */,
+				F00F49EE1B286CDF00AEFF7C /* game_over.png in Resources */,
+				F00F49F01B286CDF00AEFF7C /* Gem2.png in Resources */,
+				F00F49EF1B286CDF00AEFF7C /* gem.png in Resources */,
+				F00F49F31B286CDF00AEFF7C /* icon.png in Resources */,
+				F00F49F41B286CDF00AEFF7C /* pin.png in Resources */,
+				F00F49ED1B286CDF00AEFF7C /* base.png in Resources */,
+				F00F49F11B286CDF00AEFF7C /* goal.png in Resources */,
+				F00F49F51B286CDF00AEFF7C /* start.png in Resources */,
+				F00F49F71B286D1300AEFF7C /* Skyward.mp3 in Resources */,
 				F00F49C71B286BA600AEFF7C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00F49E11B286C3500AEFF7C /* BGMManager.m in Sources */,
 				F00F49C21B286BA600AEFF7C /* ViewController.m in Sources */,
+				F00F49FA1B2875B500AEFF7C /* ConnectionManager.m in Sources */,
 				F00F49BF1B286BA600AEFF7C /* AppDelegate.m in Sources */,
 				F00F49BC1B286BA600AEFF7C /* main.m in Sources */,
 			);
